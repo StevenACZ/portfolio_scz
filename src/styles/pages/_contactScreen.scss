@@ -7,7 +7,7 @@
   align-items: center;
 
   .hero {
-    width: 50%;
+    max-width: 400px;
 
     h2 {
       line-height: 65px;
@@ -30,6 +30,8 @@
       grid-gap: 10px;
 
       input {
+        width: 100%;
+        box-sizing: border-box;
         border: 1px solid var(--clr-accent);
         background: transparent;
         font-size: 16px;
@@ -43,19 +45,24 @@
 
       .name {
         grid-area: name;
+        width: 100%;
       }
 
       .email {
         grid-area: email;
+        width: 100%;
       }
 
       .subject {
         grid-area: subject;
+        width: 100%;
       }
 
       .message {
         grid-area: message;
-        
+        width: 100%;
+
+        box-sizing: border-box;
         border: 1px solid var(--clr-accent);
         background: transparent;
         font-size: 16px;
@@ -91,7 +98,7 @@
 }
 
 @media (max-width: 800px) {
-  .about-section {
+  .contact-section {
     flex-direction: column;
     justify-content: start;
 
@@ -101,3 +108,21 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .contact-section {
+    padding: 20px 30px;
+
+    .hero {
+      .contact-form {
+        grid-template-areas: "name name"
+                             "email email"
+                             "subject subject"
+                             "message message";
+        grid-template-rows: 50px 50px 50px 150px;
+      }
+    }
+  }
+}
+
+
