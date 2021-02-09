@@ -22,6 +22,7 @@ const Hamburger = ({ state }) => {
   let line1 = useRef(null);
   let line2 = useRef(null);
   let line3 = useRef(null);
+  let line4 = useRef(null);
   let info = useRef(null);
 
   useEffect(() => {
@@ -46,7 +47,7 @@ const Hamburger = ({ state }) => {
       });
       staggerReveal(reveal1, reveal2);
       fadeInUp(info);
-      staggerText(line1, line2, line3);
+      staggerText(line1, line2, line3, line4);
     }
   }, [state]);
   
@@ -71,8 +72,8 @@ const Hamburger = ({ state }) => {
                       onMouseEnter={e => handleHover(e)}
                       onMouseOut={e => handleHoverExit(e)}
                       ref={el => (line1 = el)}
-                      to='/opportunities'>
-                      Opportunities
+                      to='/about'>
+                      About me
                     </Link>
                   </li>
                   <li>
@@ -80,8 +81,8 @@ const Hamburger = ({ state }) => {
                       onMouseEnter={e => handleHover(e)}
                       onMouseOut={e => handleHoverExit(e)}
                       ref={el => (line2 = el)}
-                      to='/solutions'>
-                      Solutions
+                      to='/skills'>
+                      Skills
                     </Link>
                   </li>
                   <li>
@@ -89,8 +90,17 @@ const Hamburger = ({ state }) => {
                       onMouseEnter={e => handleHover(e)}
                       onMouseOut={e => handleHoverExit(e)}
                       ref={el => (line3 = el)}
-                      to='/contact-us'>
-                      Contact us
+                      to='/projects'>
+                      My projects
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      onMouseEnter={e => handleHover(e)}
+                      onMouseOut={e => handleHoverExit(e)}
+                      ref={el => (line4 = el)}
+                      to='/contact'>
+                      Contact me
                     </Link>
                   </li>
                 </ul>
