@@ -1,18 +1,5 @@
 import React, { useEffect, useMemo, useRef } from 'react'
-import heroImg from '../../img/hero_img.svg'
-import { Controls, PlayState, SplitChars, Timeline, Tween } from 'react-gsap';
-import { Power1 } from 'gsap/gsap-core';
-import { TweenLite } from 'gsap/gsap-core';
-import { TimelineMax } from 'gsap/gsap-core';
-import { TweenMax } from 'gsap/gsap-core';
-import { TimelineLite } from 'gsap/gsap-core';
 import gsap from "gsap";
-
-// tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
-// tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
-// tl.to(".intro-section", { y: "-100%", duration: 1 }, "-=1");
-// tl.fromTo(".intro", { opacity: 0 }, { opacity: 1, duration: 1 });
-// tl.fromTo("header", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 
 const MainScreen = () => {
   let introSection = useRef(null);
@@ -50,6 +37,7 @@ const MainScreen = () => {
   return (
     <>
       <section className="main-section">
+        {/* HERO - MAIN SECTION */}
         <div className="hero">
           <h2>
             Hi,<br />
@@ -61,6 +49,7 @@ const MainScreen = () => {
           <button>Contact me!</button>
         </div>
 
+        {/* CIRCLES */}
         <div className="container-circles">
           <div className="circle circle1"></div>
           <div className="circle circle2"></div>
