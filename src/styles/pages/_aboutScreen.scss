@@ -15,7 +15,7 @@
     }
 
     p {
-      font-size: 20px;
+      font-size: 16px;
       margin: 30px 0 45px;
     }
   }
@@ -30,5 +30,11 @@
       width: 100%;
       margin-bottom: 50px;
     }
+  }
+}
+
+@media (max-width: 400px) {
+  .about-section {
+    padding: 20px 30px;
   }
 }
