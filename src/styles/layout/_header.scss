@@ -1,0 +1,35 @@
+/////////////////////////////////////////////////////////////
+//--(HEADER)----------------------------------------------//
+///////////////////////////////////////////////////////////
+header {
+  height: 100px;
+
+  .inner-header {
+    position: relative;
+    z-index: 10;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+
+    .logo a {
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      color: var(--clr-dark);
+    }
+
+    .menu {
+      button {
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        mix-blend-mode: difference;
+        padding: 0;
+      }
+    }
+  }
+}

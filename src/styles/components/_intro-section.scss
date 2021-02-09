@@ -1,0 +1,50 @@
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: black;
+}
+
+.intro-section {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.slider {
+  background: var(--clr-accent);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  z-index: 999;
+}
+
+.intro-text {
+  color: var(--clr-light);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+  z-index: 999;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}

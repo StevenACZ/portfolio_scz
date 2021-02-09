@@ -1,0 +1,32 @@
+/////////////////////////////////////////////////////////////
+//--(BASE)-------------------------------------------//
+///////////////////////////////////////////////////////////*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+strong { font-weight: var(--fw-bold); }
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
