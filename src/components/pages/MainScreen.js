@@ -48,7 +48,26 @@ const MainScreen = () => {
 
 
   return (
-    <>  
+    <>
+      <section className="main-section">
+        <div className="hero">
+          <h2>
+            Hi,<br />
+            I'm Steven,<br />
+            Frontend Developer
+          </h2>
+          <p>Front End Developer</p>
+
+          <button>Contact me!</button>
+        </div>
+
+        <div className="container-circles">
+          <div className="circle circle1"></div>
+          <div className="circle circle2"></div>
+          <div className="circle circle3"></div>
+        </div>
+      </section>
+
       {/* <!-- INTRO --> */}
       <div className="intro-section" ref={ el => { introSection = el } }>
         <div className="intro-text">
@@ -62,6 +81,18 @@ const MainScreen = () => {
             <span className="text" ref={ el => { text3 = el } }>people.</span>
           </h1>
         </div>
+
+        <svg className="svg">
+          <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+            <feColorMatrix values="
+            1 0 0 0 0
+            0 1 0 0 0
+            0 0 1 0 0
+            0 0 0 20 -10
+            " />
+          </filter>
+        </svg>
       </div>
 
       {/* <!-- SLIDER --> */}

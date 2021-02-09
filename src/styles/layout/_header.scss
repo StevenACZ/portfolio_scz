@@ -17,11 +17,12 @@ header {
       font-weight: 700;
       font-size: 1rem;
       text-decoration: none;
-      color: var(--clr-dark);
+      color: var(--clr-light);
     }
 
     .menu {
       button {
+        color: var(--clr-light);
         border: none;
         background: none;
         outline: none;

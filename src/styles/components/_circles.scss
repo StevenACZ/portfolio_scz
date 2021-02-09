@@ -1,0 +1,119 @@
+.container-circles {
+  position: relative;
+  width: 400px;
+  min-width: 400px;
+  height: 400px;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  filter: url(#gooey);
+}
+
+.container-circles .circle {
+  position: relative;
+  min-width: 70px;
+  min-height: 70px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  filter: blur(0px);
+  z-index: -1;
+}
+
+// .container-circles .circle::before {
+  //   content: '';
+// }
+
+.container-circles .circle.circle1,
+.container-circles .circle.circle1::before {
+  background: linear-gradient(90deg, #f00, #0ff);
+}
+
+.container-circles .circle.circle1 {
+  animation: animateCircles1 5s ease-in infinite;
+}
+
+.container-circles .circle.circle2,
+.container-circles .circle.circle2::before {
+  background: linear-gradient(90deg, #ffeb3b, #da00ff);
+}
+
+.container-circles .circle.circle2 {
+  animation: animateCircles2 4s ease-in-out infinite;
+}
+
+.container-circles .circle.circle3,
+.container-circles .circle.circle3::before {
+  background: linear-gradient(90deg, #ffeb3b, #da00ff);
+}
+
+.container-circles .circle.circle3 {
+  animation: animateCircles3 5s ease-out infinite;
+}
+
+@keyframes animateCircles1 {
+  0% {
+    transform: translate(0px, -100px) rotate(0deg);
+  }
+  30% {
+    transform: translate(-150px, -100px) rotate(240deg);
+  }
+  60% {
+    transform: translate(-200px, -100px) rotate(480deg);
+  }
+  100% {
+    transform: translate(0px, -100px) rotate(720deg);
+  }
+}
+
+@keyframes animateCircles2 {
+  0% {
+    transform: translate(0px, -100px) rotate(0deg);
+  }
+  30% {
+    transform: translate(-150px, -100px) rotate(240deg);
+  }
+  60% {
+    transform: translate(-200px, -100px) rotate(480deg);
+  }
+  100% {
+    transform: translate(0px, -100px) rotate(720deg);
+  }
+}
+
+@keyframes animateCircles3 {
+  0% {
+    transform: translate(-100px, -100px) rotate(0deg);
+  }
+  30% {
+    transform: translate(-100px, -200px) rotate(240deg);
+  }
+  60% {
+    transform: translate(-100px, 0px) rotate(480deg);
+  }
+  100% {
+    transform: translate(-100px, -100px) rotate(720deg);
+  }
+}
+
+.svg {
+  width: 0px;
+  height: 0px;
+}
+
+@media (max-width: 450px) {
+  .container-circles {
+    display: none;
+    width: 200px;
+    height: 200px;
+    min-width: 200px; 
+    min-height: 200px; 
+  }
+}

@@ -1,13 +1,3 @@
-.big-text {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  font-size: 5rem;
-  font-family: "Lobster", cursive;
-  color: black;
-}
-
 .intro-section {
   background: black;
   position: fixed;
@@ -47,4 +37,10 @@
 .hide span {
   transform: translateY(100%);
   display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .text {
+    font-size: 30px !important;
+  }
 }
