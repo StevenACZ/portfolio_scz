@@ -22,7 +22,8 @@ const ContactScreen = () => {
         <h2>Contact me</h2>
 
         <p>
-          Hello, if you have a request or question,<br/> don't hesitate to contact me using below form either.
+          Hello, if you have a request or question,<br/>
+          don't hesitate to contact me using below form either.
         </p>
 
         <div className="contact-form">
