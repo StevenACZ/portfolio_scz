@@ -9,10 +9,12 @@
   .hero {
     h2 {
       line-height: 65px;
+      color: var(--clr-accent);
     }
 
     p {
       font-size: 30px;
+      margin: 10px 0 45px;
     }
 
     button {
@@ -21,6 +23,12 @@
       padding: 13px 20px;
       color: var(--clr-light);
       cursor: pointer;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        background: var(--clr-accent);
+        color: var(--clr-dark);
+      }
     }
   }
 }
