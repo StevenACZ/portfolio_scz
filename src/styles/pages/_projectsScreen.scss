@@ -1,0 +1,25 @@
+.projects-section {
+  height: calc(100vh - 100px);
+  padding: 20px 60px;
+  box-sizing: border-box;
+
+  .hero {
+    h2 {
+      line-height: 65px;
+      color: var(--clr-accent);
+    }
+
+    p {
+      font-size: 16px;
+      margin: 20px 0 0;
+    }
+  }
+
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 240px;
+    grid-gap: 20px;
+    padding: 40px 0px;
+  }
+}
