@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useRef } from 'react'
 import gsap from "gsap";
+import { Link } from 'react-router-dom';
 
 const MainScreen = () => {
   let introSection = useRef(null);
@@ -33,7 +34,6 @@ const MainScreen = () => {
     )
   }, [])
 
-
   return (
     <>
       <section className="main-section">
@@ -46,7 +46,11 @@ const MainScreen = () => {
           </h2>
           <p>Front End Developer</p>
 
-          <button>Contact me!</button>
+          <button>
+            <Link to='/contact'>
+              Contact me!
+            </Link>
+          </button>
         </div>
 
         {/* CIRCLES */}

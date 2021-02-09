@@ -21,13 +21,20 @@
       border: 1px solid var(--clr-accent);
       background: transparent;
       padding: 13px 20px;
-      color: var(--clr-light);
       cursor: pointer;
       transition: .2s ease-in-out;
 
+      a {
+        text-decoration: none;
+        color: var(--clr-light);
+      }
+
       &:hover {
         background: var(--clr-accent);
-        color: var(--clr-dark);
+
+        a {
+          color: var(--clr-dark);
+        }
       }
     }
   }
