@@ -27,10 +27,6 @@
   z-index: -1;
 }
 
-// .container-circles .circle::before {
-  //   content: '';
-// }
-
 .container-circles .circle.circle1,
 .container-circles .circle.circle1::before {
   background: linear-gradient(90deg, #f00, #0ff);

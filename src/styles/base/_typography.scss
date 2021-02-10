@@ -1,6 +1,3 @@
-/////////////////////////////////////////////////////////////
-//--(TYPOGRAPHY)------------------------------------------//
-///////////////////////////////////////////////////////////
 h1,
 h2,
 h3 {
@@ -11,37 +8,3 @@ h3 {
 h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
-
-// TITLE
-.section__title {
-  margin-bottom: .25em;
-  
-  &--intro {
-    font-weight: var(--fw-reg);
-
-    & strong {
-      display: block;
-    }
-  }
-}
-
-// SUBTITLE
-.section__subtitle {
-  margin: 0;
-  font-size: var(--fs-h3);  
-  
-  &--intro,
-  &--about {
-    background: var(--clr-accent);
-    padding: .25em 1em;
-    font-family: var(--ff-secondary);
-    margin-bottom: 1em;
-  }
-}
-
-// WORK
-.section__subtitle--work {
-  color: var(--clr-accent);
-  font-weight: var(--fw-bold);
-  margin-bottom: 2em;
-}

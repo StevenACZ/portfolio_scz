@@ -9,10 +9,12 @@ const ContactScreen = () => {
   let emailTo = `mailto:scoailazaa@gmail.com?&subject=${subject}&body=${messageBody}`
 
   const resetContactForm = () => {
-    setName('');
-    setEmail('');
-    setSubject('');
-    setMessageBody('');
+    setTimeout(() => {
+      setName('');
+      setEmail('');
+      setSubject('');
+      setMessageBody('');
+    }, 3000)
   }
 
   return (
