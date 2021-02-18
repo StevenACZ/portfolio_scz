@@ -22,8 +22,16 @@ const ProjectCard = ({
         </div>
 
         <div className="project-links">
-          <a href={ webpage } target="_blank">Web page</a>
-          <a href={ github } target="_blank">GitHub</a>
+          {
+            webpage
+              &&
+                <a href={ webpage } target="_blank">Web page</a>
+          }
+          {
+            github
+              &&
+                <a href={ github } target="_blank">GitHub</a>
+          }
         </div>
       </div>
     </div>
