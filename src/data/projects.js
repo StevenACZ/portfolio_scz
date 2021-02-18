@@ -10,8 +10,16 @@ import natoursPage from '../img/natours-page.png'
 import pigGame from '../img/pig-game.png'
 import portfolioV2 from '../img/portfolio-v2.png'
 import portfolioV1 from '../img/portfolio-v1.png'
+import expenseTracker from '../img/expense-tracker.png'
 
 export let projects = [
+  {
+    id: '12a23213123213123123',
+    name: 'Expense tracker',
+    img: expenseTracker,
+    skills: ['HTML', 'CSS', 'SASS', 'JavaScript', 'React', 'Node.js', 'Express', 'MongoDB'],
+    github: 'https://github.com/StevenACZ/expense-tracker-react'
+  },
   {
     id: '12a',
     name: 'Angry Birds',
@@ -96,7 +104,7 @@ export let projects = [
     id: '12p342s22323',
     name: 'Portfolio',
     img: portfolioV2,
-    skills: ['HTML', 'CSS', 'SASS', 'React', 'Js'],
+    skills: ['HTML', 'CSS', 'SASS', 'React', 'JavaScript', 'GSAP'],
     webpage: 'https://stevenacz.herokuapp.com/',
     github: 'https://github.com/StevenACZ/portfolio_scz'
   },
@@ -104,7 +112,7 @@ export let projects = [
     id: 'oli23',
     name: 'Portfolio v1',
     img: portfolioV1,
-    skills: ['HTML', 'CSS', 'SASS', 'Js'],
+    skills: ['HTML', 'CSS', 'SASS', 'JavaScript'],
     webpage: 'https://stevenacz.github.io/Portfolio_Dev/',
     github: 'https://github.com/StevenACZ/Portfolio_Dev'
   },
