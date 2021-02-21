@@ -11,8 +11,17 @@ import pigGame from '../img/pig-game.png'
 import portfolioV2 from '../img/portfolio-v2.png'
 import portfolioV1 from '../img/portfolio-v1.png'
 import expenseTracker from '../img/expense-tracker.png'
+import reactUi from '../img/react-ui.png'
 
 export let projects = [
+  {
+    id: '1212a23213123213123123',
+    name: 'React UI',
+    img: reactUi,
+    skills: ['HTML', 'CSS', 'SASS', 'JavaScript', 'React'],
+    webpage: 'https://react-ui-acz.herokuapp.com/',
+    github: 'https://github.com/StevenACZ/expense-tracker-react'
+  },
   {
     id: '12a23213123213123123',
     name: 'Expense tracker',
