@@ -13,8 +13,17 @@ import portfolioV1 from '../img/portfolio-v1.png'
 import expenseTracker from '../img/expense-tracker.png'
 import reactUi from '../img/react-ui.png'
 import deliverable from '../img/deliverable.png'
+import devconnector from '../img/devconnector.png'
 
 export let projects = [
+  {
+    id: '9999222111232',
+    name: 'DevConnector',
+    img: devconnector,
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJs'],
+    webpage: 'https://stevenacz.github.io/dev-connector-frontend/#/',
+    github: 'https://github.com/StevenACZ/dev-connector-frontend'
+  },
   {
     id: '9999222111',
     name: 'Deliverable',
