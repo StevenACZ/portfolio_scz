@@ -7,8 +7,7 @@ const AboutScreen = () => {
       <div className="hero">
         <h2>About me</h2>
         <p>
-        Front-end Developer seeking Full-Time Software Engineer Job in an entry-level position, looking to apply 10 months of experience
-        in front-end development work, JavaScript, React, CSS and Web Standard HTML, and a keen eye for details, to help implement user interaction following client-approved mock-ups, such as wireframes, visual design comprehensive layouts, and prototypes.
+          Front-end Developer seeking Full-Time Software Engineer Job in an entry-level position, looking to apply my experience in front-end development work, JavaScript, React, CSS and Web Standard HTML. I have a keen eye for details, witch it help me to implement the client-approved mock-ups, such as wireframes, visual design comprehensive layouts, and prototypes.
         </p>
 
         {/* SVG */}
