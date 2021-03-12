@@ -14,8 +14,17 @@ import expenseTracker from '../img/expense-tracker.png'
 import reactUi from '../img/react-ui.png'
 import deliverable from '../img/deliverable.png'
 import devconnector from '../img/devconnector.png'
+import crehanaClone from '../img/crehana-clone.png'
 
 export let projects = [
+  {
+    id: '99992221123221232',
+    name: 'Crehana-clone',
+    img: crehanaClone,
+    skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+    webpage: 'https://stevenacz.github.io/crehana-clone-react/#/',
+    github: 'https://github.com/StevenACZ/crehana-clone-react'
+  },
   {
     id: '9999222111232',
     name: 'DevConnector',
