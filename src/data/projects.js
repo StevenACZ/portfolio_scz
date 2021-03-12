@@ -132,7 +132,7 @@ export let projects = [
     name: 'Portfolio',
     img: portfolioV2,
     skills: ['HTML', 'CSS', 'SASS', 'React', 'JavaScript', 'GSAP'],
-    webpage: 'https://stevenacz.herokuapp.com/',
+    webpage: 'https://stevenacz.github.io/portfolio_scz/#/',
     github: 'https://github.com/StevenACZ/portfolio_scz'
   },
   {
