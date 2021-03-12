@@ -20,7 +20,7 @@ export let projects = [
     id: '9999222111232',
     name: 'DevConnector',
     img: devconnector,
-    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJs'],
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'NodeJs', 'MongoDB', 'Express'],
     webpage: 'https://stevenacz.github.io/dev-connector-frontend/#/',
     github: 'https://github.com/StevenACZ/dev-connector-frontend'
   },
