@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio_scz/static/css/main.ff778c4d.chunk.css",
+    "main.js": "/portfolio_scz/static/js/main.1c61266a.chunk.js",
+    "main.js.map": "/portfolio_scz/static/js/main.1c61266a.chunk.js.map",
+    "runtime-main.js": "/portfolio_scz/static/js/runtime-main.fce48269.js",
+    "runtime-main.js.map": "/portfolio_scz/static/js/runtime-main.fce48269.js.map",
+    "static/js/2.f8243a23.chunk.js": "/portfolio_scz/static/js/2.f8243a23.chunk.js",
+    "static/js/2.f8243a23.chunk.js.map": "/portfolio_scz/static/js/2.f8243a23.chunk.js.map",
+    "index.html": "/portfolio_scz/index.html",
+    "static/css/main.ff778c4d.chunk.css.map": "/portfolio_scz/static/css/main.ff778c4d.chunk.css.map",
+    "static/js/2.f8243a23.chunk.js.LICENSE.txt": "/portfolio_scz/static/js/2.f8243a23.chunk.js.LICENSE.txt",
+    "static/media/a11y.977a2ec2.png": "/portfolio_scz/static/media/a11y.977a2ec2.png",
+    "static/media/angry-birds-stories.04b1b35a.png": "/portfolio_scz/static/media/angry-birds-stories.04b1b35a.png",
+    "static/media/angry-birds.e06c032c.png": "/portfolio_scz/static/media/angry-birds.e06c032c.png",
+    "static/media/blog-sass.30de63f4.png": "/portfolio_scz/static/media/blog-sass.30de63f4.png",
+    "static/media/chairdnb.8242d1fa.png": "/portfolio_scz/static/media/chairdnb.8242d1fa.png",
+    "static/media/color-game.d0448f0c.png": "/portfolio_scz/static/media/color-game.d0448f0c.png",
+    "static/media/deliverable.454ea7aa.png": "/portfolio_scz/static/media/deliverable.454ea7aa.png",
+    "static/media/devconnector.8c5a835b.png": "/portfolio_scz/static/media/devconnector.8c5a835b.png",
+    "static/media/el-veraz.4a4dfaca.png": "/portfolio_scz/static/media/el-veraz.4a4dfaca.png",
+    "static/media/expense-tracker.1cdafbd2.png": "/portfolio_scz/static/media/expense-tracker.1cdafbd2.png",
+    "static/media/natours-page.410fb422.png": "/portfolio_scz/static/media/natours-page.410fb422.png",
+    "static/media/pig-game.0767cc4d.png": "/portfolio_scz/static/media/pig-game.0767cc4d.png",
+    "static/media/portfolio-v1.6707d28e.png": "/portfolio_scz/static/media/portfolio-v1.6707d28e.png",
+    "static/media/portfolio-v2.5bde2306.png": "/portfolio_scz/static/media/portfolio-v2.5bde2306.png",
+    "static/media/react-ui.54f61d4c.png": "/portfolio_scz/static/media/react-ui.54f61d4c.png",
+    "static/media/todolistjs.8386af7a.png": "/portfolio_scz/static/media/todolistjs.8386af7a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fce48269.js",
+    "static/js/2.f8243a23.chunk.js",
+    "static/css/main.ff778c4d.chunk.css",
+    "static/js/main.1c61266a.chunk.js"
+  ]
+}
