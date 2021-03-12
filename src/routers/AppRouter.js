@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -13,7 +13,7 @@ import ContactScreen from "../components/pages/ContactScreen";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <HashRouter>
       <div className="wrapper">
         <Header />
 
@@ -27,7 +27,7 @@ const AppRouter = () => {
         </Switch>
 
       </div>
-    </Router>
+    </HashRouter>
   )
 }
 
