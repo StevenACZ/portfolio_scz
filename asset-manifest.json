@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_scz/static/css/main.ff778c4d.chunk.css",
-    "main.js": "/portfolio_scz/static/js/main.1c61266a.chunk.js",
-    "main.js.map": "/portfolio_scz/static/js/main.1c61266a.chunk.js.map",
+    "main.js": "/portfolio_scz/static/js/main.a7e7c6ed.chunk.js",
+    "main.js.map": "/portfolio_scz/static/js/main.a7e7c6ed.chunk.js.map",
     "runtime-main.js": "/portfolio_scz/static/js/runtime-main.fce48269.js",
     "runtime-main.js.map": "/portfolio_scz/static/js/runtime-main.fce48269.js.map",
     "static/js/2.f8243a23.chunk.js": "/portfolio_scz/static/js/2.f8243a23.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/blog-sass.30de63f4.png": "/portfolio_scz/static/media/blog-sass.30de63f4.png",
     "static/media/chairdnb.8242d1fa.png": "/portfolio_scz/static/media/chairdnb.8242d1fa.png",
     "static/media/color-game.d0448f0c.png": "/portfolio_scz/static/media/color-game.d0448f0c.png",
+    "static/media/crehana-clone.11de49e6.png": "/portfolio_scz/static/media/crehana-clone.11de49e6.png",
     "static/media/deliverable.454ea7aa.png": "/portfolio_scz/static/media/deliverable.454ea7aa.png",
     "static/media/devconnector.8c5a835b.png": "/portfolio_scz/static/media/devconnector.8c5a835b.png",
     "static/media/el-veraz.4a4dfaca.png": "/portfolio_scz/static/media/el-veraz.4a4dfaca.png",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.fce48269.js",
     "static/js/2.f8243a23.chunk.js",
     "static/css/main.ff778c4d.chunk.css",
-    "static/js/main.1c61266a.chunk.js"
+    "static/js/main.a7e7c6ed.chunk.js"
   ]
 }
