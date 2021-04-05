@@ -63,7 +63,7 @@
         left: 82%;
       }
     }
-    
+
     .skill {
       margin-bottom: 20px;
 
@@ -103,25 +103,43 @@
 
         &.js {
           &::before {
-            width: 60%;
+            width: 65%;
+          }
+        }
+
+        &.ts {
+          &::before {
+            width: 53%;
           }
         }
 
         &.react {
           &::before {
-            width: 40%;
+            width: 70%;
           }
         }
 
         &.ruby {
           &::before {
-            width: 54%;
+            width: 55%;
           }
         }
 
         &.rubyonrails {
           &::before {
             width: 20%;
+          }
+        }
+
+        &.nodejs {
+          &::before {
+            width: 56%;
+          }
+        }
+
+        &.mongoDb {
+          &::before {
+            width: 30%;
           }
         }
       }

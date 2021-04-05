@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const SkillsScreen = () => {
   return (
@@ -7,13 +7,24 @@ const SkillsScreen = () => {
       <div className="hero">
         <h2>Skills & Experience</h2>
         <p>
-          The main area of my expertise is front end development<br /><br />
-          HTML, CSS, JS, building small and medium web apps with React<br />
-          features, animations, and coding interactive layouts.<br /><br />
-          I have also a little full-stack developer experience<br/>
-          with (Ruby and Ruby on Rails)<br /><br />
-
-          Visit my <a href="https://www.linkedin.com/in/stevenacz/" target="_blank">Linkeding</a> profile for more details.
+          The main area of my expertise is front end development
+          <br />
+          <br />
+          HTML, CSS, JS, building small and medium web apps with React
+          <br />
+          features, animations, and coding interactive layouts.
+          <br />
+          <br />
+          I have also a little full-stack developer experience
+          <br />
+          with (Ruby and Ruby on Rails)
+          <br />
+          <br />
+          Visit my{' '}
+          <a href="https://www.linkedin.com/in/stevenacz/" target="_blank">
+            Linkeding
+          </a>{' '}
+          profile for more details.
         </p>
       </div>
 
@@ -33,42 +44,51 @@ const SkillsScreen = () => {
 
         <div className="skill">
           <p>HTML</p>
-          <div className="experience-bar html">
-          </div>
+          <div className="experience-bar html"></div>
         </div>
 
         <div className="skill">
           <p>CSS</p>
-          <div className="experience-bar css">
-          </div>
+          <div className="experience-bar css"></div>
         </div>
 
         <div className="skill">
           <p>JavaScript</p>
-          <div className="experience-bar js">
-          </div>
+          <div className="experience-bar js"></div>
+        </div>
+
+        <div className="skill">
+          <p>TypeScript</p>
+          <div className="experience-bar ts"></div>
         </div>
 
         <div className="skill">
           <p>React</p>
-          <div className="experience-bar react">
-          </div>
+          <div className="experience-bar react"></div>
+        </div>
+
+        <div className="skill">
+          <p>Node.js</p>
+          <div className="experience-bar nodejs"></div>
+        </div>
+
+        <div className="skill">
+          <p>MongoDB</p>
+          <div className="experience-bar mongoDb"></div>
         </div>
 
         <div className="skill">
           <p>Ruby</p>
-          <div className="experience-bar ruby">
-          </div>
+          <div className="experience-bar ruby"></div>
         </div>
 
         <div className="skill">
           <p>Ruby on Rails</p>
-          <div className="experience-bar rubyonrails">
-          </div>
+          <div className="experience-bar rubyonrails"></div>
         </div>
-      </div>      
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default SkillsScreen
+export default SkillsScreen;
