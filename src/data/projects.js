@@ -17,8 +17,17 @@ import devconnector from '../img/devconnector.png';
 import crehanaClone from '../img/crehana-clone.png';
 import proShop from '../img/pro-shop.png';
 import tkambio from '../img/tkambio.png';
+import foxbelMusic from '../img/foxbel-music.png';
 
 export let projects = [
+  {
+    id: '0980980123123123kaskdawd',
+    name: 'Foxbel-Music',
+    img: foxbelMusic,
+    skills: ['HTML', 'CSS', 'Styled-components', 'TypeScript', 'React'],
+    webpage: 'https://stevenacz.github.io/Foxbel-Music/',
+    github: 'https://github.com/StevenACZ/Foxbel-Music',
+  },
   {
     id: '8123120931212312kjlasd',
     name: 'Tkambio',
