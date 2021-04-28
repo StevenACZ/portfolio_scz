@@ -16,8 +16,17 @@ import deliverable from '../img/deliverable.png';
 import devconnector from '../img/devconnector.png';
 import crehanaClone from '../img/crehana-clone.png';
 import proShop from '../img/pro-shop.png';
+import tkambio from '../img/tkambio.png';
 
 export let projects = [
+  {
+    id: '8123120931212312kjlasd',
+    name: 'Tkambio',
+    img: tkambio,
+    skills: ['HTML', 'CSS', 'Vuejs'],
+    webpage: 'https://stevenacz.github.io/tkambio-challenge/',
+    github: 'https://github.com/StevenACZ/tkambio-challenge',
+  },
   {
     id: 'peqweqwe12342',
     name: 'Pro-Shop',
