@@ -1,171 +1,165 @@
 .skills-section {
-  height: calc(100vh - 100px);
-  padding: 20px 60px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	height: calc(100vh - 100px);
+	padding: 20px 60px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-  .hero {
-    width: 50%;
+	.hero {
+		width: 50%;
 
-    h2 {
-      line-height: 65px;
-      color: var(--clr-accent);
-    }
+		h2 {
+			line-height: 65px;
+			color: var(--clr-accent);
+		}
 
-    p {
-      font-size: 20px;
-      margin: 30px 0 45px;
+		p {
+			font-size: 20px;
+			margin: 30px 0 45px;
 
-      a {
-        color: var(--clr-accent);
-      }
-    }
-  }
+			a {
+				color: var(--clr-accent);
+			}
+		}
+	}
 
-  .skills {
-    width: 50%;
-    height: auto;
-    padding-top: 60px;
-    position: relative;
+	.skills {
+		width: 50%;
+		height: auto;
+		padding-top: 60px;
+		position: relative;
 
-    .skill-range {
-      background-color: var(--clr-light);
-      height: 100%;
-      width: 2px;
-      position: absolute;
-      top: 0;
-      left: 0%;
+		.skill-range {
+			background-color: var(--clr-light);
+			height: 100%;
+			width: 2px;
+			position: absolute;
+			top: 0;
+			left: 0%;
 
-      div {
-        position: absolute;
-        font-weight: bold;
-        background-color: var(--clr-light);
-        color: var(--clr-dark);
-        padding: 6px 10px 5px;
-        text-transform: uppercase;
-      }
+			div {
+				position: absolute;
+				font-weight: bold;
+				background-color: var(--clr-light);
+				color: var(--clr-dark);
+				padding: 6px 10px 5px;
+				text-transform: uppercase;
+			}
 
-      &.beginner {
-        left: 0%;
-      }
+			&.beginner {
+				left: 0%;
+			}
 
-      &.elementary {
-        left: 23%;
-      }
+			&.elementary {
+				left: 23%;
+			}
 
-      &.intermediate {
-        left: 50%;
-      }
+			&.intermediate {
+				left: 50%;
+			}
 
-      &.advanced {
-        left: 82%;
-      }
-    }
+			&.advanced {
+				left: 82%;
+			}
+		}
 
-    .skill {
-      margin-bottom: 20px;
+		.skill {
+			margin-bottom: 20px;
 
-      p {
-        margin: 0 0 2px 0;
-        padding-left: 10px;
-      }
+			p {
+				margin: 0 0 2px 0;
+				padding-left: 10px;
+			}
 
-      .experience-bar {
-        width: 100%;
-        height: 25px;
-        position: relative;
-        overflow: hidden;
-        border: 1px solid var(--clr-light);
+			.experience-bar {
+				width: 100%;
+				height: 25px;
+				position: relative;
+				overflow: hidden;
+				border: 1px solid var(--clr-light);
 
-        &::before {
-          content: '';
-          background: var(--clr-accent);
-          width: 10%;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
+				&::before {
+					content: '';
+					background: var(--clr-accent);
+					width: 10%;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
 
-        &.html {
-          &::before {
-            width: 90%;
-          }
-        }
+				&.html {
+					&::before {
+						width: 90%;
+					}
+				}
 
-        &.css {
-          &::before {
-            width: 85%;
-          }
-        }
+				&.css {
+					&::before {
+						width: 85%;
+					}
+				}
 
-        &.js {
-          &::before {
-            width: 65%;
-          }
-        }
+				&.js {
+					&::before {
+						width: 65%;
+					}
+				}
 
-        &.ts {
-          &::before {
-            width: 53%;
-          }
-        }
+				&.ts {
+					&::before {
+						width: 53%;
+					}
+				}
 
-        &.react {
-          &::before {
-            width: 70%;
-          }
-        }
+				&.react {
+					&::before {
+						width: 70%;
+					}
+				}
 
-        &.ruby {
-          &::before {
-            width: 55%;
-          }
-        }
+				&.nodejs {
+					&::before {
+						width: 56%;
+					}
+				}
 
-        &.rubyonrails {
-          &::before {
-            width: 20%;
-          }
-        }
+				&.graphql {
+					&::before {
+						width: 20%;
+					}
+				}
 
-        &.nodejs {
-          &::before {
-            width: 56%;
-          }
-        }
-
-        &.mongoDb {
-          &::before {
-            width: 30%;
-          }
-        }
-      }
-    }
-  }
+				&.postgresql {
+					&::before {
+						width: 30%;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 800px) {
-  .skills-section {
-    padding: 0 30px;
-    flex-direction: column;
-    justify-content: start;
+	.skills-section {
+		padding: 0 30px;
+		flex-direction: column;
+		justify-content: start;
 
-    .hero {
-      width: 100%;
-      margin-bottom: 10px;
-    }
+		.hero {
+			width: 100%;
+			margin-bottom: 10px;
+		}
 
-    .skills {
-      width: 100%;
+		.skills {
+			width: 100%;
 
-      .skill-range {
-        div {
-          font-size: 10px;
-        }
-      }
-    }
-  }
+			.skill-range {
+				div {
+					font-size: 10px;
+				}
+			}
+		}
+	}
 }
